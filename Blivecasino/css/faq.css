@@ -1,0 +1,30 @@
+.faq {
+    padding-block: clamp(50px, 5vw, 100px);
+}
+.faq__title {
+    font-size: clamp(20px, 5vw, 40px);
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.faq__list {
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+}
+
+.faq__item {
+    padding: clamp(20px, 5vw, 40px);
+    background: var(--white);
+    border-radius: 20px;
+}
+
+.faq__item-title {
+    font-size: clamp(20px, 5vw, 25px);
+    color: var(--primary);
+    margin-bottom: 20px;
+}
+
+.faq__item-answer {
+    line-height: 150%;
+}

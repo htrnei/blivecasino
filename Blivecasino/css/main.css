@@ -1,0 +1,27 @@
+@import "reset.css";
+@import "header.css";
+@import "hero.css";
+@import "blog.css";
+@import "footer.css";
+@import "faq.css";
+
+:root {
+    --primary: #cb0ef6;
+    --gray: #262626;
+    --white: #fff;
+    --bg: #f5d4d4;
+}
+
+body {
+    color: var(--gray);
+    font-size: 16px;
+    background: var(--bg);
+    font-family: Roboto, sans-serif;
+}
+
+.container {
+    max-width: 1140px;
+    margin-inline: auto;
+    padding-inline: 15px;
+}
+
